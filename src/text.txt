@@ -1,0 +1,102 @@
+{chat?.messages?.map((message)=>
+          (
+            <div className="message own" key={message?.createdAt}>
+              <div className="texts">
+                {message.img && <img 
+                src={message.img}
+                alt="" 
+                />}
+                <p>
+                  {message.text}
+                </p>
+                {/* <span>1 minute ago</span> */}
+              </div>
+            </div>
+
+            // {img.url && <div className="message own">
+            //   <div className="texts">
+            //     <img src={img.url} alt="" />
+            //   </div>
+            // </div>
+            // }
+          )
+        )}
+
+
+<div className="message own">
+          <div className="texts">
+            <p>
+              hello
+            </p>
+          </div>
+        </div>
+        <div className="message own">
+          <div className="texts">
+            <p>
+              hello
+            </p>
+          </div>
+        </div>
+        <div className="message own">
+          <div className="texts">
+            <p>
+              hello
+            </p>
+          </div>
+        </div>
+        <div className="message own">
+          <div className="texts">
+            <p>
+              hello
+            </p>
+          </div>
+        </div>
+        <div className="message own">
+          <div className="texts">
+            <p>
+              hello
+            </p>
+          </div>
+        </div>
+        <div className="message own">
+          <div className="texts">
+            <p>
+              hello
+            </p>
+          </div>
+        </div>
+        <div className="message own">
+          <div className="texts">
+            <p>
+              hello
+            </p>
+          </div>
+        </div>
+        <div className="message own">
+          <div className="texts">
+            <p>
+              hello
+            </p>
+          </div>
+        </div>
+        <div className="message own">
+          <div className="texts">
+            <p>
+              hello
+            </p>
+          </div>
+        </div>
+        <div className="message own">
+          <div className="texts">
+            <p>
+              hello
+            </p>
+          </div>
+        </div>
+        <div className="message own">
+          <div className="texts">
+            <p>
+              hello
+            </p>
+          </div>
+        </div>
